@@ -10,3 +10,5 @@ plugins {
 }
 
 rootProject.name = "cirjson-jvm"
+
+include("cirjson")

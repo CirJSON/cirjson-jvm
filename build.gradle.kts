@@ -2,11 +2,13 @@ plugins {
     kotlin("jvm") version "1.9.0"
 }
 
-group = "org.cirjson"
-version = "1.0-SNAPSHOT"
+allprojects {
+    group = "org.cirjson"
+    version = "1.0-SNAPSHOT"
 
-repositories {
-    mavenCentral()
+    repositories {
+        mavenCentral()
+    }
 }
 
 dependencies {
